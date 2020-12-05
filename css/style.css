@@ -1,0 +1,102 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.logo img {
+    width: 100px;
+    padding: 1%;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:white;
+}
+
+header nav {
+    background-color:blue;
+    width: 100%;
+}
+
+.logo {
+    text-align: center;
+}
+
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #272727;
+    padding: 1%;
+}
+
+footer ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: aliceblue;
+    
+
+}
+
+img.angel-pic {
+    width: 200px;
+    padding-left: 40%;
+    
+}
+
+div.flexContainer {
+    display: flex;
+}
+
+div.flexContainer div {
+    width: 33%;
+    padding: 20px;
+}
+
+div.flexContainer div img {
+    width: 200px;
+}
+
+div.workGrid div img {
+    width: 200px;
+}
+
+/* .workGridItemHeader {
+    grid-area: myHeader;
+}
+
+.workGridItem {
+    grid-area: myArea;
+} 
+
+div.workGrid {
+    display: grid;
+    grid-template-areas:
+    ". myHeader"
+    "myArea myArea myArea";
+    grid-template-rows: auto;
+    grid-template-columns: 50px 50px 50px 50px;
+} */
+
+@media only screen and (max-width: 600) {
+    div.flexContainer {
+        flex-direction: column;
+        width: 100%;
+        padding: 20px;
+     }
+}
