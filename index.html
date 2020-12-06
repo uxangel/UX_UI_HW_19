@@ -5,6 +5,7 @@
         <title>
 
         </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     </head>
     <body>
         <header class="navigation">
@@ -13,27 +14,27 @@
             </div>
             <nav class="inline-block">
                 <ul>
-                    <li>About</li>
-                    <li>Skills</li>
-                    <li>Work</li>
-                    <li>Contact</li>
+                    <li class="aboutNav">About</li>
+                    <li class="skillsNav">Skills</li>
+                    <li class="workNav">Work</li>
+                    <li class="contactNav">Contact</li>
                 </ul> 
             </nav> 
         </header>
-        <section class="heroImg">
+        <section class="heroImg" id="aboutSection">
             <div class="content">
                 <img class="angel-pic" src="images/picme.jpg"/>
                 <p>
                     I consider myself a curious, self-motivated, and organized-driven UX Designer that believes in producing practical solutions for the human experience. 
                     I am a pragmatic thinker and am willing to take on challenges in order to make room for growth. I am an observer by nature and enjoy learning from others. 
                 </p>
-                <button>Download Resume</button>
+                <button id="downloadButton">Download Resume</button>
 
             </div>
         </section>
 
         <!--My UX Skills section coded using CSS flex-->
-        <section class="mySkills">
+        <section class="mySkills" id="mySkillsSection">
             <h1>My UX Skills</h1>
             <div class="flexContainer">
                 <div>
@@ -57,7 +58,7 @@
         </section>
 
         <!--My Work Section Constructed using Css Grid-->
-        <section class="myWork">
+        <section class="myWork" id="myWorkSection">
             <h1>My Work</h1>
             <div class="workGrid">
                 <div class="workGridItem">
@@ -88,11 +89,13 @@
 
         <footer>
             <ul>
-                <li>About</li>
-                <li>Skills</li>
-                <li>Work</li>
-                <li>Contact</li>
+                <li class="aboutNav">About</li>
+                <li class="skillsNav">Skills</li>
+                <li class="workNav">Work</li>
+                <li class="contactNav">Contact</li>
             </ul>
         </footer>
     </body>
+    <script src="js/index.js"></script>
+
 </html>

@@ -76,6 +76,10 @@ div.workGrid div img {
     width: 200px;
 }
 
+html {
+    scroll-behavior: smooth;
+  }
+
 /* .workGridItemHeader {
     grid-area: myHeader;
 }
